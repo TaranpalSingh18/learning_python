@@ -1,5 +1,5 @@
 set1={1,2,4,5,7}
-set2={2,4, 8, 9 , 0}
+set2={1,2,4,5,7, 8, 9 , 0}
 
 set3=set1.union(set2)
 print(set3)
@@ -15,3 +15,5 @@ print(symmetric_diff)
 
 set_all = set1.union(set2)-set4
 print(set_all)
+
+print(set1.issubset(set2))
