@@ -1,5 +1,5 @@
 string1="     Taran Pal Singh     "
-string1= string1.strip()
+print(string1.strip())
 #removes the white spaces
 print(string1)
 
@@ -23,14 +23,15 @@ print(string5.count('h'))
 
 #replacing some words of a string
 string6="hello world"
-print(string6.replace("hello","satsrikal")) #--> this returns a new string, does not update the first string, as strings are immutable in nature
+print(string6.replace("l","satsrikal")) #--> this returns a new string, does not update the first string, as strings are immutable in nature
 print(string6)
 
 #using split operation
-stringx="how. are you?"
-list = stringx.split('w')
+stringx="hello wordl"
+listt = stringx.split('o')
 #i can split the string according to the letter i need--> if i put nothing, my defaults splits by spaces
-print(list)
+print(listt)
+print(len(listt))
 
 
 

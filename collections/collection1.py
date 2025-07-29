@@ -12,4 +12,4 @@ print(my_counter.items())
 
 print(my_counter.most_common(2))
 
-print(my_counter.most_common(2)[0][1])
+print(my_counter.most_common(1)[0][1])
