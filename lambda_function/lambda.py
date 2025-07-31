@@ -43,3 +43,4 @@ print(*p)
 #reduce
 p = reduce(lambda x,y: x*y, a)
 print(p)
+
